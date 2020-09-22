@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Kotaro Portfolio Website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+      integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="./style.css"
+    />
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <script
+      src="https://kit.fontawesome.com/86611af5bf.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="#home">
+          <img src="img/logo.png" alt="logo" />
+        </a>
+      </div>
+
+      <button class="nav-toggle" aria-lable="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav_item"><a href="#home" class="nav__link">HOME</a></li>
+          <li class="nav_item">
+            <a href="#skills" class="nav__link">MY SKILL</a>
+          </li>
+          <li class="nav_item">
+            <a href="#about" class="nav__link">ABOUT ME</a>
+          </li>
+          <li class="nav_item">
+            <a href="#project" class="nav__link">MY PROJECT</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!--    ITNRO    -->
+    <section class="intro" id="home">
+      <h1 class="section__title section__title--intro">
+        Hi, I am <strong>Kotaro Kamashima</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">
+        Student @<a href="https://42tokyo.jp/" target="_blank" class="tokyo"
+          >42TOKYO</a
+        >
+      </p>
+      <img
+        src="img/kotaro-01.jpg"
+        alt="Profile photo"
+        class="intro__img"
+      />
+    </section>
+
+    <!--    My Skills -->
+    <section class="my-skills" id="skills">
+      <h2 class="section__title section__title--skills">What I can</h2>
+      <div class="skills">
+        <div class="skill">
+          <h3>LANGUAGE</h3>
+          <br>
+            <ul class="list">
+                <li>Clang(42Tokyo)</li>
+                <li>C++(Competitive Programming)</li>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>Javascript</li>
+                <li>Dart</li>
+                <li>Ruby</li>
+                <li>Python</li>
+                <li>SQL</li>
+                <li>Swift(Currently learning)</li>
+            </ul>
+        </div>
+        <div class="skill">
+          <h3>ENV, EDITOR & PLATFORM</h3>
+          <br>
+            <ul class="list">
+              <li><span style="font-weight: bold;">ENV</span>
+                <ul>
+                  <li>MacBook Air(2017)</li>
+                  <li>Memory: 8GB</li>
+                </ul>
+              </li>
+            </ul>
+            <br>
+            <ul class="list">
+              <li><span style="font-weight: bold;">EDITOR</span>
+                <ul>
+                  <li>Vim</li>
+                  <li>VScode</li>
+                  <li>Android Studio</li>
+                  <li>Xcode</li>
+                </ul>
+              </li>
+            </ul>
+            <br>
+            <ul class="list">
+              <li><span style="font-weight: bold;">PLATFORM</span>
+                <ul>
+                  <li>Flutter</li>
+                  <li>MySQL</li>
+                  <li>Firebase</li>
+                  <li></li>
+                </ul>
+              </li>
+            </ul>
+        </div>
+        <div class="skill">
+          <h3>OTHER SKILLS</h3>
+          <br>
+          <ul class="list">
+            <li>Linux Command</li>
+            <li>Github</li>
+            <li>Git</li>
+            <li>Basic Networking infrastructure</li>
+            <li>Docker</li>
+            <li>Nginx</li>
+            <li>Slack</li>
+            <li>Discord</li>
+        </ul>
+        </div>
+        <!--   / skill   -->
+      </div>
+      <!--   / skills   -->
+      <a href="#project" class="btn">My Projects</a>
+    </section>
+
+    <!--  ABOUT ME    -->
+    <section class="about-me" id="about">
+      <h2 class="section__title section__title--about">Who I am</h2>
+      <p class="section__subtitle section__subtitle--about">
+        Junior developer with great passion for coding
+      </p>
+
+      <div class="about--me_body">
+        <p class="japanese__font">
+          オランダ在住時に訪れた<a href="https://su.org/" target="_blank" class="link">Singularity University</a>にて、最先端技術を使ってイノベーションを起こそうとする学生たちに強い影響を受ける。
+          この出来事が契機となり、エンジニア職に関心を持ち始める。
+        </p>
+        <br>
+        <p class="japanese__font">
+          その後日本に帰国した後、フランス発エンジニア養成機関42Tokyoが開校されることを知り、受験することを決意。
+          3時間に渡るWeb試験と1ヶ月の厳しい入学試験を乗り越えて合格。2020年7月に晴れて入学。「自走できるエンジニア」を目指して、学習中。
+          より詳細な事項は<a href="https://note.com/kkamashi/n/nba8de97c3bf6" target="_blank" class="link">こちら</a>で紹介。
+        </p>
+      </div>
+      <img
+        src="img/kotaro-02.jpg"
+        alt="Kotaro full picture"
+        class="about-me__img"
+      />
+    </section>
+
+    <!--    MY PROJECT     -->
+    <section class="my--project" id="project">
+      <h2 class="section__title section__title--project">My projects</h2>
+      <p class="section__subtitle section__subtitle--project">
+        List of my recent projects
+      </p>
+
+      <div class="portfolio">
+        <!--    Portfolio item 01   -->
+        <a
+          href="portfolio-items/portfolio-item-01.html"
+          class="portfolio__item"
+        >
+          <img src="img/covid-19.jpg" alt="" class="portfolio__img" />
+        </a>
+
+        <!--    Portfolio item 02   -->
+        <a
+          href="portfolio-items/portfolio-item-02.html"
+          class="portfolio__item"
+        >
+          <img src="img/mercari-calc-app.jpg" alt="" class="portfolio__img" />
+        </a>
+
+        <!--    Portfolio item 03   -->
+        <a
+          href="portfolio-items/portfolio-item-03.html"
+          class="portfolio__item"
+        >
+          <img src="img/raycasting-js.jpg" alt="" class="portfolio__img" />
+        </a>
+
+        <!--    Portfolio item 04  -->
+        <a
+          href="portfolio-items/portfolio-item-04.html"
+          class="portfolio__item"
+        >
+          <img src="img/social-media.jpg" alt="" class="portfolio__img" />
+        </a>
+
+        <!--    Portfolio item 05   -->
+        <a
+          href="portfolio-items/portfolio-item-05.html"
+          class="portfolio__item"
+        >
+          <img src="img/pricing.jpg" alt="" class="portfolio__img" />
+        </a>
+
+        <!--    Portfolio item 06   -->
+        <a
+          href="portfolio-items/portfolio-item-06.html"
+          class="portfolio__item"
+        >
+          <img src="img/tic-tac-toe.jpg" alt="" class="portfolio__img" />
+        </a>
+
+        <!--    Portfolio item 07   -->
+        <a
+          href="portfolio-items/portfolio-item-07.html"
+          class="portfolio__item"
+        >
+          <img src="img/weather-app.jpg" alt="" class="portfolio__img" />
+        </a>
+      </div>
+    </section>
+
+    <!--  FOOTER  -->
+    <footer class="footer">
+      <a href="mailto:kotaro0726@gmail.com" class="footer__link"
+        >kotaro0726@gmail.com</a
+      >
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a
+            class="social--list__link"
+            href="https://twitter.com/Kotaro6661"
+            target="_blank"
+            ><i class="fab fa-twitter"></i
+          ></a>
+        </li>
+        <li class="social-list__item">
+          <a
+            class="social--list__link"
+            href="https://github.com/Kotaro666-dev"
+            target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
+        </li>
+        <li class="social-list__item">
+          <a
+            class="social--list__link"
+            href="https://medium.com/@kotaro666_dev"
+            target="_blank"
+          >
+            <i class="fab fa-medium"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a
+            class="social--list__link"
+            href="https://atcoder.jp/users/Kotaro666"
+            target="_blank"
+          >
+            <i class="fas fa-trophy"></i>
+          </a>
+        </li>
+      </ul>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>

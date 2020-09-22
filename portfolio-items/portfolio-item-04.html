@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Kotaro Portfolio Website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+      integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="../style.css"
+    />
+    <link rel="icon" type="image/x-icon" href="../img/favicon.ico">
+    <script
+      src="https://kit.fontawesome.com/86611af5bf.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="../index.html">
+          <img src="../img/logo.png" alt="logo" />
+        </a>
+      </div>
+
+      <button class="nav-toggle" aria-lable="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav_item"><a href="#home" class="nav__link">HOME</a></li>
+          <li class="nav_item">
+            <a href="#skills" class="nav__link">MY SKILL</a>
+          </li>
+          <li class="nav_item">
+            <a href="#about" class="nav__link">ABOUT ME</a>
+          </li>
+          <li class="nav_item">
+            <a href="#project" class="nav__link">MY PROJECT</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!--    Introduction    -->
+    <section class="intro">
+      <h1 class="section__title section__title--intro">
+        Social Media Dashboard<strong>with dark mode switcher</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">HTML5, CSS3, Javascript</p>
+      <img src="../img/social-media.jpg" alt="social-media" class="intro__img" />
+    </section>
+
+    <div class="portfolio-item-indivisual">
+      <p class="japanese__font">
+        <a href="https://www.frontendmentor.io/dashboard" target="_blank" class="link">Frontend Mentor</a>
+        で提供されているアイディアを基に、Webページ制作の練習で取り組んだ物。
+      </p>
+      <img src="../img/social-media-details.png" alt="social-media" />
+      <br>
+      <p class="japanese__font">
+        複数のアプリケーションで導入されているダークモードを切り替えるスイッチをCSSでデザインし、
+        Javascript上で指定しているクラスにダークモード用に用意されたクラスをtoggleすることでダークモードを実装。
+      </p>
+      <p class="japanese__font">
+        反省点としては、第三者のソースコードを借用した切り替えスイッチを工夫しようとしたものの、
+        自分が予想している挙動をしなかったことが多々。CSSに対する深い理解ができていなかったことが原因。
+      </p>
+      <p class="japanese__font">デモ画面は<a href="https://social-media-dashboard-kotaro666.netlify.app/" target="_blank" class="link">こちら</a></p>
+      <p class="japanese__font">ソースコードは<a href="https://github.com/Kotaro666-dev/frontend_mentor_works/tree/master/social-media-dashboard-with-theme-switcher-master" target="_blank" class="link">こちら</a></p>
+    </div>
+
+    <!--  Footer  -->
+    <footer class="footer">
+      <a href="mailto:kotaro0726@gmail.com" class="footer__link"
+        >kotaro0726@gmail.com</a
+      >
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a
+            class="social--list__link"
+            href="https://twitter.com/Kotaro6661"
+            target="_blank"
+            ><i class="fab fa-twitter"></i
+          ></a>
+        </li>
+        <li class="social-list__item">
+          <a
+            class="social--list__link"
+            href="https://github.com/Kotaro666-dev"
+            target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
+        </li>
+        <li class="social-list__item">
+          <a
+            class="social--list__link"
+            href="https://atcoder.jp/users/Kotaro666"
+            target="_blank"
+          >
+            <i class="fas fa-trophy"></i>
+          </a>
+        </li>
+      </ul>
+    </footer>
+    <script src="../index.js"></script>
+  </body>
+</html>
