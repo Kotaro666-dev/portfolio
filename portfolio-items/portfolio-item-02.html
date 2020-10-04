@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Kotaro Portfolio Website</title>
-
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
@@ -20,15 +19,13 @@
       href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
       rel="stylesheet"
     />
-    <link
-      rel="stylesheet"
-      href="../style.css"
-    />
-    <link rel="icon" type="image/x-icon" href="../img/favicon.ico">
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="icon" type="image/x-icon" href="../img/favicon.ico" />
     <script
       src="https://kit.fontawesome.com/86611af5bf.js"
       crossorigin="anonymous"
     ></script>
+    <script defer src="../index.js"></script>
   </head>
   <body>
     <header>
@@ -64,8 +61,14 @@
       <h1 class="section__title section__title--intro">
         Mobile App<strong>Mercari Profit Calculator</strong>
       </h1>
-      <p class="section__subtitle section__subtitle--intro">Flutter, Firebase/Heroku(Future)</p>
-      <img src="../img/mercari-calc-app.jpg" alt="mercari-calc-app" class="intro__img" />
+      <p class="section__subtitle section__subtitle--intro">
+        Flutter, Firebase/Heroku(Future)
+      </p>
+      <img
+        src="../img/mercari-calc-app.jpg"
+        alt="mercari-calc-app"
+        class="intro__img"
+      />
     </section>
     <div class="portfolio-item-indivisual">
       <p class="japanese__font">
@@ -73,16 +76,24 @@
         その話から、メルカリでの販売データを登録して、利益や販売履歴を確認できるアプリを考えた。
       </p>
       <img src="../img/mercari-calc-app-details.png" alt="mercari-calc-app" />
-      <br>
+      <br />
       <p class="japanese__font">
         販売データを登録するUI画面はできるだけシンプルにしようと思い、アイテム名、売買金額、送料だけを入力＆選択してADDできるように実装した。
-        入力されたデータから、メルカリの手数料などを差し引いた純利益だけを計算し、メインのUI画面に反映、そして「Sold Items List」に随時追加する仕組み。
+        入力されたデータから、メルカリの手数料などを差し引いた純利益だけを計算し、メインのUI画面に反映、そして「Sold
+        Items List」に随時追加する仕組み。
       </p>
       <p class="japanese__font">
         UI画面は完成したものの、データベースの構築＆連携がまだ未学習だったため、本格的な実装にはまだ至っていない。
         このあと、FirebaseやHerokuなどのサービスを利用してデプロイしたい。
       </p>
-      <p class="japanese__font">ソースコードは<a href="https://github.com/Kotaro666-dev/flutter_bootcamp_project/tree/master/mercari_profit_calculator" target="_blank" class="link">こちら</a></p>
+      <p class="japanese__font">
+        ソースコードは<a
+          href="https://github.com/Kotaro666-dev/flutter_bootcamp_project/tree/master/mercari_profit_calculator"
+          target="_blank"
+          class="link"
+          >こちら</a
+        >
+      </p>
     </div>
 
     <!--  Footer  -->
@@ -118,6 +129,5 @@
         </li>
       </ul>
     </footer>
-    <script src="../index.js"></script>
   </body>
 </html>

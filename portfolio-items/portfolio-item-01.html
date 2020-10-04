@@ -20,15 +20,13 @@
       href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
       rel="stylesheet"
     />
-    <link
-    rel="stylesheet"
-    href="../style.css"
-  />
-    <link rel="icon" type="image/x-icon" href="../img/favicon.ico">
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="icon" type="image/x-icon" href="../img/favicon.ico" />
     <script
       src="https://kit.fontawesome.com/86611af5bf.js"
       crossorigin="anonymous"
     ></script>
+    <script defer src="../index.js"></script>
   </head>
   <body>
     <header>
@@ -71,11 +69,12 @@
 
     <div class="portfolio-item-indivisual">
       <p class="japanese__font">
-        Flutterで作ったスマホアプリ。Covid 19の新規感染者数などのデータをオープンソースから回収し、
+        Flutterで作ったスマホアプリ。Covid
+        19の新規感染者数などのデータをオープンソースから回収し、
         APIを利用して日本と世界の最新統計情報をリアルタイムで確認できるアプリ。
       </p>
       <img src="../img/covid-19-details.png" alt="" />
-      <br>
+      <br />
       <p class="japanese__font">
         このアプリ制作で工夫した点は、ユーザーが確認したいと思う統計情報として「Total」「Today」「Yesterday」タブを実装し、
         それぞれの日付に応じてオープンソースからAPIを通じて必要な情報を回収している。
@@ -83,7 +82,14 @@
       <p class="japanese__font">
         当初の予定では、1週間の増減棒グラフの導入や、選択する国に応じて各国の統計情報を表示するアイディアがあったものの未実装。
       </p>
-      <p class="japanese__font">ソースコードは<a href="https://github.com/Kotaro666-dev/flutter_bootcamp_project/tree/master/covid_19" target="_blank" class="link">こちら</a></p>
+      <p class="japanese__font">
+        ソースコードは<a
+          href="https://github.com/Kotaro666-dev/flutter_bootcamp_project/tree/master/covid_19"
+          target="_blank"
+          class="link"
+          >こちら</a
+        >
+      </p>
     </div>
 
     <!--  Footer  -->
@@ -119,6 +125,5 @@
         </li>
       </ul>
     </footer>
-    <script src="../index.js"></script>
   </body>
 </html>

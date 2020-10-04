@@ -2,7 +2,6 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <!-- This viewport meta enables website to funcion in small devices -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Kotaro Portfolio Website</title>
@@ -11,27 +10,23 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
     />
-
-    <!-- the link for Social icons -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
       integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
       crossorigin="anonymous"
     />
-
-    <!-- Update these with your own fonts -->
     <link
       href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
       rel="stylesheet"
     />
-
     <link rel="stylesheet" href="../style.css" />
-    <!-- Place my font awesome kit's code for using social icons -->
+    <link rel="icon" type="image/x-icon" href="../img/favicon.ico" />
     <script
       src="https://kit.fontawesome.com/86611af5bf.js"
       crossorigin="anonymous"
     ></script>
+    <script defer src="../index.js"></script>
   </head>
   <body>
     <header>
@@ -40,7 +35,6 @@
           <img src="../img/logo.png" alt="logo" />
         </a>
       </div>
-
       <button class="nav-toggle" aria-lable="toggle navigation">
         <span class="hamburger"></span>
       </button>
@@ -64,34 +58,51 @@
     </header>
 
     <!--    Introduction    -->
-
     <section class="intro">
       <h1 class="section__title section__title--intro">
-        The title<strong>of my project</strong>
+        E-commerce homepage<strong>with slider action</strong>
       </h1>
-      <p class="section__subtitle section__subtitle--intro">a short subtitle</p>
-      <img src="../img/portfolio-09.jpg" alt="" class="intro__img" />
+      <p class="section__subtitle section__subtitle--intro">
+        HTML5, CSS3, Javascript
+      </p>
+      <img src="../img/room-homepage.jpg" alt="" class="intro__img" />
     </section>
 
     <div class="portfolio-item-indivisual">
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat.
+      <p class="japanese__font">
+        <a
+          href="https://www.frontendmentor.io/dashboard"
+          target="_blank"
+          class="link"
+          >Frontend Mentor</a
+        >
+        で提供されているアイディアを基に、Webページ制作の練習で取り組んだ物。
       </p>
-      <img src="../img/portfolio-details.jpg" alt="" />
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat.
+      <img src="../img/room-homepage-details.png" alt="" />
+      <br />
+      <p class="japanese__font">
+        レスポンシブWebデザイン導入済み。左右の矢印アイコンのクリックアクションに応じて、画像とそれに応じたタイトルや説明の導入が変わる実装を
+        Javascriptで実現している。
       </p>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat.
+      <p class="japanese__font">
+        反省点としては、デスクトップ/ノートパソコン向けのレイアウトをキレイに見せるために行き当たりばったりなCSSコードを書いてしまっていること。
+        もう少し工夫したやり方のレイアウトを身に着けたい。
+      </p>
+      <p class="japanese__font">
+        デモ画面は<a
+          href="https://room-hompage-master-kotaro666.netlify.app/"
+          target="_blank"
+          class="link"
+          >こちら</a
+        >
+      </p>
+      <p class="japanese__font">
+        ソースコードは<a
+          href="https://github.com/Kotaro666-dev/frontend_mentor_works/tree/master/room-homepage-master"
+          target="_blank"
+          class="link"
+          >こちら</a
+        >
       </p>
     </div>
 
