@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300;400;500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300;400;500&display=swap");
 
 *,
 *::before,
@@ -12,7 +12,7 @@
   /* Font Famly */
   --ff-primary: "Source Sans Pro", sans-serif;
   --ff-secondary: "Source Code Pro", monospace;
-  --ff-japanese: 'M PLUS Rounded 1c', sans-serif;
+  --ff-japanese: "M PLUS Rounded 1c", sans-serif;
 
   /* Font weight */
   --fw-reg: 300; /* regular */
@@ -87,12 +87,19 @@ a {
   text-decoration-color: var(--clr-accent);
 }
 
-a:visited{
+a:visited {
   color: var(--ff-primary);
 }
 
 a:hover {
   color: var(--clr-accent);
+}
+
+.youtube {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 0 3rem;
 }
 
 /* **************************************** */
@@ -201,7 +208,7 @@ header {
 }
 
 .logo:active {
-  transform: scale(1.0);
+  transform: scale(1);
 }
 
 .nav {
@@ -366,7 +373,7 @@ header {
 
 .my-skills {
   background-color: var(--clr-dark);
-  background-image: url('img/services-bg.jpg');
+  background-image: url("img/services-bg.jpg");
   background-size: cover;
   /* background-blend-mode プロパティは、要素の背景画像を互いに、または要素の背景色と、どのように混合するかを設定 */
   background-blend-mode: multiply;
